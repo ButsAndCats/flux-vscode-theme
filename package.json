@@ -1,0 +1,22 @@
+{
+    "name": "flux",
+    "displayName": "Flux",
+    "description": "Dark theme with a soft palette",
+    "publisher": "threeninenineone",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Flux",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Flux-color-theme.json"
+            }
+        ]
+    }
+}
