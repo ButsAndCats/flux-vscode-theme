@@ -4,6 +4,10 @@
     "description": "Dark theme with a soft palette",
     "publisher": "threeninenineone",
     "version": "0.0.1",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ButsAndCats/flux-vscode-theme.git"
+    },  
     "engines": {
         "vscode": "^1.56.0"
     },
