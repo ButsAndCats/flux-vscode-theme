@@ -1,26 +1,31 @@
 {
-    "name": "flux",
-    "displayName": "Flux",
-    "description": "Dark theme with a soft palette",
-    "publisher": "threeninenineone",
-    "version": "0.0.1",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ButsAndCats/flux-vscode-theme.git"
-    },  
-    "engines": {
-        "vscode": "^1.56.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Flux",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Flux-color-theme.json"
-            }
-        ]
-    }
+  "name": "flux",
+  "displayName": "Flux",
+  "description": "Dark theme with a soft palette",
+  "publisher": "threeninenineone",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/georgebutter/flux-vscode-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Flux (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Flux-color-theme-dark.json"
+      }
+      {
+        "label": "Flux (Light)",
+        "uiTheme": "vs-light",
+        "path": "./themes/Flux-color-theme-light.json"
+      }
+    ]
+  }
 }
