@@ -2,11 +2,14 @@
   "name": "flux",
   "displayName": "Flux",
   "description": "Dark theme with a soft palette",
-  "publisher": "threeninenineone",
+  "publisher": "georgebutter",
   "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/georgebutter/flux-vscode-theme.git"
+  },
+  "scripts": {
+    "release": "vsce package && vsce publish"
   },
   "engines": {
     "vscode": "^1.56.0"
@@ -14,6 +17,19 @@
   "categories": [
     "Themes"
   ],
+  "icon": "images/icon.png",
+  "keywords": [
+    "dark",
+    "light",
+    "bright",
+    "pastel",
+    "colorful",
+    "theme"
+  ],
+  "galleryBanner": {
+    "color": "#202124",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
@@ -23,7 +39,7 @@
       },
       {
         "label": "Flux (Light)",
-        "uiTheme": "vs-light",
+        "uiTheme": "vs",
         "path": "./themes/Flux-color-theme-light.json"
       }
     ]
