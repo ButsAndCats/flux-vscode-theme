@@ -20,7 +20,7 @@
         "label": "Flux (Dark)",
         "uiTheme": "vs-dark",
         "path": "./themes/Flux-color-theme-dark.json"
-      }
+      },
       {
         "label": "Flux (Light)",
         "uiTheme": "vs-light",
